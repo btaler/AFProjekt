@@ -67,8 +67,8 @@ button{
   border-radius: 50%;
   box-shadow: 0px 0px 3px 1px rgba(255,255,255,1);
   transition: .5s all ease;
-  margin: auto;
-  display: inline-block;
+  margin: 1rem auto;
+  display: block;
   width: 100px;
   height: 100px;
   text-align: center;
@@ -106,8 +106,6 @@ img{
 .main{
   margin-left: 1rem;
 }
-
-
 
 footer{
   clear: both;
@@ -148,6 +146,10 @@ footer a:hover{
   h1{
     margin-left: 2rem;
   }
+
+.button{
+  display: inline-block;
+}
 
   .column{
     width: 49%;
